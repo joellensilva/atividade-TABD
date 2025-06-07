@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 from time import time
 
 fake = Faker('pt_BR')
-client = MongoClient('mongodb+srv://tabdteste:tabdtesteifal@cluster0.jywnnc4.mongodb.net/')
+client = MongoClient('')
 db = client['TABD']
 clientes_col = db['Cliente']
 produtos_col = db['Produto']
